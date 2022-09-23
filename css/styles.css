@@ -132,7 +132,6 @@ margin-top: 10%;
   border-radius: 75px;
   padding: 5px;
 }
-
 .service-image {
   margin-top: 25%;
   width: 95%;
@@ -236,7 +235,11 @@ footer {
 
 /* Mobile and iPad Vertical. Mobile is Horizontal as well: iPhone 12/13 mini iOS 14.6 */
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 2500px) {
+
+  .vertical {
+    display: none;
+  }
 
   .intro-parent {
     margin-top: 0;
@@ -262,8 +265,23 @@ footer {
 }
 
 
+@media screen and (max-width: 1079px) {
 
-@media screen and (max-width: 1070px) {
+  .horizontal {
+    display: none;
+  }
+  
+  #horizontal {
+    display: none;
+  }
+
+  .vertical {
+    display: contents;
+  }
+
+  #vertical {
+    display: contents;
+  }
 
   .intro-parent {
     margin-top: 0;
