@@ -110,7 +110,7 @@ margin-top: 10%;
 
 .bear {
   width: 75%;
-  margin-top: 10%;
+  margin-top: 25%;
 }
 
 /* services */
@@ -231,40 +231,53 @@ footer {
 
 /* Media Queries */
 
-/* Galaxy S10 */
+/* iPad/large screen horizontal */
 
-/* iPad */
+
+/* Mobile and iPad Vertical. Mobile is Horizontal as well: iPhone 12/13 mini iOS 14.6 */
+
 @media screen and (max-width: 1080px) {
 
-  /* .service-image {
-    margin-top: 50%;
-  } */
-
-  .footer-header-parent {
-    margin-left: 2rem; 
-    margin-top: 3rem;
+  .intro-parent {
+    margin-top: 0;
   }
 
-  .footer-button {
-    margin-left: 10%;
-  }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-	.footer-button {
+  .bear {
+    margin-top: 15%;
     width: 100%;
   }
 
-  .button-div {
-    margin-top: 4%;
+  .service-image {
+    margin-top: 50%;
+  }
+
+	.footer-slogan {
+    margin-bottom: 1%;
+  }
+
+  .footer-button {
+    width: 100%;
   }
 
 }
 
-/* iPhone 12/13 mini iOS 14.6 */
-@media screen and (min-width: 375px) {
+
+
+@media screen and (max-width: 1070px) {
+
+  .intro-parent {
+    margin-top: 0;
+  }
+
+  .bear {
+    margin-top: 0;
+    width: 75%;
+  }
+
+  .service-image {
+    width: 50%;
+    margin: 0 25% 4%;
+  }
 
 	.footer-slogan {
     margin-bottom: 1%;
@@ -272,6 +285,7 @@ footer {
 
   .footer-button {
     margin-top: 0;
+    width: 75%;
   }
 
 }
