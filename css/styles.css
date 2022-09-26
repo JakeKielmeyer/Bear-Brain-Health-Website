@@ -308,6 +308,31 @@ footer {
 
 }
 
+@media screen and (min-width: 412px) {
+
+  .bear {
+    margin-top: 2rem;
+  }
+
+  .footer-header-parent {
+    margin: 2rem 0 0;
+  }
+
+  .footer-slogan {
+    margin-bottom: 0;
+  }
+
+  .button-div {
+    margin-bottom: 2rem;
+  }
+
+  .footer-button {
+    margin: 1.25rem auto;
+    /* width: 92%; */
+  }
+
+}
+
 
 /* Curves */
 
