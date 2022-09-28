@@ -88,10 +88,15 @@
 
           <div>
             <button type="button" class="btn btn-lg download-button buttons" style="background-color: #219EBC;">
-                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <!-- Calendly link widget begin -->
+              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+              <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/call-15-min/quick-call'});return false;">Talk to a Brain Health Expert</a>
+              <!-- Calendly link widget end -->
+                <!-- <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
                 <a href="" onclick="Calendly.initPopupWidget({url: 'https:/calendly.com/call-15-min/quick-call'});return false;">Talk to a Brain Health Expert</a>
-                </script>
+                </script> -->
             </button>
           </div>
   
@@ -335,9 +340,13 @@
 
 </html>
 
-                <!-- Calendly badge widget begin -->
+                <!-- Calendly Popup badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/call-15-min/quick-call', text: 'Talk to a Brain Health Expert', color: '#219EBC', textColor: '#ffffff', branding: false }); }</script>
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async>
+</script>
+<script type="text/javascript">window.onload = function() 
+{ Calendly.initBadgeWidget({ url: 'https://calendly.com/call-15-min/quick-call', 
+text: 'Talk to a Brain Health Expert', color: '#219EBC', textColor: '#ffffff', 
+branding: false }); }> </script>
 
 
